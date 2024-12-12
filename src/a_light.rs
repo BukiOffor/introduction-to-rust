@@ -35,7 +35,8 @@ impl StateMachine for LightSwitch {
 
     // turn the light on
     fn turn_on(&self, t: &Self::Transition) -> Self::State {
-        todo!()
+       let on = true;
+       return on;
     }
 
     // turn the light off
@@ -48,6 +49,23 @@ impl StateMachine for LightSwitch {
         todo!()
     }
 }
+
+
+/// This function is not graded. It is just for collecting feedback.
+/// On a scale from 0 - 255, with zero being extremely easy and 255 being extremely hard,
+/// how hard did you find this section of the exam.
+pub fn how_hard_was_this_section() -> u8 {
+	todo!()
+	
+}
+
+/// This function is not graded. It is just for collecting feedback.
+/// How much time (in hours) did you spend on this section of the exam?
+pub fn how_many_hours_did_you_spend_on_this_section() -> u8 {
+	todo!()
+	
+}
+
 
 /// Please do not touch the TESTS ⚠️ ⚠️ ⛔️
 
