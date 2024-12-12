@@ -85,6 +85,21 @@ impl Building {
 }
 
 
+/// This function is not graded. It is just for collecting feedback.
+/// On a scale from 0 - 255, with zero being extremely easy and 255 being extremely hard,
+/// how hard did you find this section of the exam.
+pub fn how_hard_was_this_section() -> u8 {
+	todo!()
+	
+}
+
+/// This function is not graded. It is just for collecting feedback.
+/// How much time (in hours) did you spend on this section of the exam?
+pub fn how_many_hours_did_you_spend_on_this_section() -> u8 {
+	todo!()
+	
+}
+
 #[cfg(test)]
 mod test {
     use super::*;
